@@ -1,0 +1,150 @@
+header{
+	font-size: 6.0em;
+	margin-top: 80px;
+	margin-left: 1165px;
+	color: #fff;
+
+
+}
+
+h2{
+	font-size: 3.0em;
+	margin-left: 1300px;
+	
+}
+
+body {
+
+background-color: #a8c6fa;
+
+
+
+}
+
+#fs{
+
+	border-radius: 70px;
+	width: 260px ;
+	height: 300px;
+	width : 100%;
+}
+
+#txtBusca{
+	width: 300px;
+	margin-left: 180px;
+	margin-top: 180px;
+	width : 17%;
+
+}
+
+#sobre {
+	text-align: justify;
+	width: 300px;
+	margin: 0px 180px 0px;
+	width : 17%;
+	
+}
+
+.posts {
+    background-color: #fff;
+	width: 50%;
+	height: 100%;
+	margin: -880px 820px 0px;
+	padding:50px;
+
+}
+
+h1 {
+	margin-left: -50px;
+	padding-left: 50px;
+	margin-right: -50px;
+	background-color: #f3e0e0;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #a8c6fa;
+	text-align: left;
+	padding: 0;
+	margin-top: -130px;
+	margin-bottom: 200px;
+	margin-left: 180px;
+
+}
+
+nav li {
+
+	font-size: 1.4em;
+	line-height: 40px;
+	height: 40px;
+	width: 140px;
+	margin-right: 64px;
+	border-bottom: 1px solid #888;
+	display: inline-block;
+	position: relative;
+}
+
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background-color: #0c59cf; 
+	display: block;
+	transition: 1s background-color;
+	border-radius: 10px;
+
+}
+
+
+nav a:hover {
+	background-color: #3d8af7;
+	color: #fff;
+
+}
+
+#i{
+	background-color: #3d8af7;
+}
+
+
+nav a:focus {
+	background-color: #3d8af7;
+	color: #000;
+	cursor: default;
+}
+
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("portfolio.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+    width: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:800px) {
+   #fs, #txtBusca,  #sobre, .posts,  {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}  
